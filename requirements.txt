@@ -1,0 +1,5 @@
+streamlit
+openai
+youtube_transcript_api
+newspaper3k
+
