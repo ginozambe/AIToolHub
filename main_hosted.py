@@ -1,7 +1,7 @@
 import sys
 import re
 import streamlit as st
-import openai
+from openai import OpenAI
 from youtube_transcript_api import YouTubeTranscriptApi
 import newspaper as nk
 
@@ -9,8 +9,8 @@ import newspaper as nk
 
 
 def openAI_generate_text(prompt, model, api_key):
-    openai.api_key = api_key
-    completion = openai.ChatCompletion.create(
+    client = OpenAI(api_key=api_key)
+    completion = client.chat.completions.create(
         model=model, messages=[{"role": "user", "content": prompt}])
     return completion.choices[0].message.content
 
