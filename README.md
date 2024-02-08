@@ -1,6 +1,6 @@
 # AI Tool Hub
 
-### Streamlit App
+### Streamlit Application
 
 #### Link:
 
