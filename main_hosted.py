@@ -61,7 +61,7 @@ def tool_1_yt_url(api_key):
     yt_url = st.text_area("Enter Youtube URL:")
     yt_user_prompt = st.text_area("Enter Prompt:")
     model = st.selectbox("Choose a model", [
-                         "gpt-4", "gpt-3.5-turbo-0125"])
+                         "gpt-3.5-turbo-0125", "gpt-4-0125-preview"])
 
     if st.button("Generate"):
         video_transcript = get_video_transcript(yt_url)
@@ -79,7 +79,7 @@ def tool_2_blog_url(api_key):
     blog_url = st.text_input("Enter Blog URL:")
     blog_user_prompt = st.text_area("Enter Prompt:")
     model = st.selectbox("Choose a model", [
-                         "gpt-4", "gpt-3.5-turbo-0125"])
+                         "gpt-3.5-turbo-0125", "gpt-4-0125-preview"])
 
     if st.button("Generate"):
         blog_article = get_article_from_url(blog_url)
