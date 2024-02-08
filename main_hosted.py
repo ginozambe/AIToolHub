@@ -92,24 +92,6 @@ def tool_2_blog_url(api_key):
         st.write(result)
 
 
-# def main():
-#     # Sidebar
-#     st.sidebar.header("Settings")
-
-#     # Input for OpenAI API key in the sidebar
-#     api_key = st.sidebar.text_input(
-#         "OpenAI API key", type="password")
-
-#     # Tool selection as a dropdown in the sidebar
-#     tool_selection = st.sidebar.selectbox(
-#         "Choose a tool", ["Youtube AI Automator", "Blog AI Automator"])
-
-#     # Depending on the tool selection, display the UI
-#     if tool_selection == "Youtube AI Automator":
-#         tool_1_yt_url(api_key)
-#     elif tool_selection == "Blog AI Automator":
-#         tool_2_blog_url(api_key)
-
 def main():
     st.sidebar.header("Settings")
 
