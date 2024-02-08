@@ -4,7 +4,7 @@
 
 #### Link: 
 
-[https://ginozambeaitools.streamlit.app/](https://ginozambeaitoolstack.streamlit.app/)
+https://ginozambeaitoolstack.streamlit.app/
 
 #### Use Cases:
 
