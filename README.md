@@ -4,7 +4,7 @@
 
 #### Link:
 
-https://ginozambeaitoolkit.streamlit.app/
+https://ginozambeaitoolkit.streamlit.app/ 
 
 #### Use Cases:
 
@@ -14,6 +14,7 @@ Blog AI Automator can be used to summarize Blog articles via a link.
 
 #### Disclaimer:
 
-Run main.py file via the terminal "streamlit run main.py" to use the app locally.
+- Run main.py file via the terminal "streamlit run main.py" to use the app locally.
+- If the streamlit app needs "waking up" due to inactivity. Follow instructions then come back a minute or two later to use.
 
 
