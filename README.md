@@ -8,9 +8,8 @@ https://ginozambeaitoolkit.streamlit.app/
 
 #### Use Cases:
 
-YouTube AI Automator can be used to summarize YouTube videos via a link.
-
-Blog AI Automator can be used to summarize Blog articles via a link.
+1. YouTube AI Automator can be used to summarize YouTube videos via a link.
+2. Blog AI Automator can be used to summarize Blog articles via a link.
 
 #### Disclaimer:
 
