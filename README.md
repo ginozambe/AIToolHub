@@ -2,7 +2,7 @@
 
 ### Streamlit Web Application
 
-#### Link:
+#### Web Link:
 
 https://ginozambeaitoolkit.streamlit.app/ 
 
